@@ -6,15 +6,10 @@ function FloatingButton({ view, setView }) {
   return (
     <button
       onClick={toggleView}
-      style={{
-        position: "fixed",
-        bottom: "20px",
-        right: "20px",
-        padding: "15px",
-        borderRadius: "50%",
-        fontSize: "18px",
-        cursor: "pointer",
-      }}
+      className="fixed bottom-6 right-6 w-14 h-14 flex items-center justify-center 
+                 bg-indigo-600 text-white text-xl rounded-full shadow-lg 
+                 hover:bg-indigo-700 hover:scale-110 active:scale-95 
+                 transition-all duration-200"
     >
       {view === "todo" ? "💬" : "📝"}
     </button>
