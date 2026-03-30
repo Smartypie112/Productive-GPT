@@ -27,7 +27,7 @@ ProductiveGPT interacts with users like a chatbot and:
 ## 📦 Installation
 
 ```bash
-git clone git@github.com:Smartypie112/JS-Problems.git
-cd JS-Problems
+git clone git@github.com:Smartypie112/Productive-GPT.git
+cd ProductiveGPT
 npm install
 npm run dev
